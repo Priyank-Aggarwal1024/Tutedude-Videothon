@@ -7,6 +7,7 @@ import people from "../assets/people.svg";
 function Hero({ navigateRegister }) {
   return (
     <section className="hero-section">
+      <div className="hero-blur-shadow"></div>
       <div className="hero-left">
         <div className="her-lef-join">An IIT Delhi alumni innititative</div>
         <div className="hero-heading">

@@ -7,16 +7,33 @@
   position: relative;
   z-index: 20;
   background-color: #fff;
+  overflow: hidden;
 }
-
+.hero-blur-shadow {
+  width: 434.109px;
+  height: 111px;
+  flex-shrink: 0;
+  border-radius: 434.109px;
+  background: #f19a6b;
+  filter: blur(103.80147552490234px);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  z-index: 0;
+}
 .hero-left {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-right {
   width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 .hero-right > img {
@@ -164,6 +181,13 @@
 }
 
 @media (width<768px) {
+  .hero-blur-shadow {
+    width: 185px;
+    height: 60px;
+    flex-shrink: 0;
+    right: 0;
+    left: unset;
+  }
   .hero-section {
     padding: 64px 48px;
     padding-top: 12px;
