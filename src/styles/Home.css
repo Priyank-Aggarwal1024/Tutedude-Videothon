@@ -1,0 +1,204 @@
+.hackathon-home {
+  background: #fff;
+  width: 100%;
+  height: 100dvh;
+  overflow-y: auto;
+}
+.bct {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 44px;
+  gap: 30px;
+  background: radial-gradient(
+    57.07% 56.3% at 13.02% 106.83%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+}
+.bct-top-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.bct-para {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  opacity: 0.7;
+}
+.bct-rff {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 105%;
+  letter-spacing: -0.1px;
+  display: flex;
+  height: 45px;
+  padding: 14px 40px 13px 38px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+}
+.hackathon-floater {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  min-height: 59px;
+  background: #fff;
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.25);
+  display: none;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 16px;
+  justify-content: center;
+  z-index: 111;
+  animation: float 0.8s 1 forwards;
+}
+@keyframes float {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+.hackathon-floater-right {
+  display: flex;
+  width: 222px;
+  height: 48px;
+  padding: 10px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: radial-gradient(
+    88.03% 84.58% at 40.95% 124.22%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+  box-shadow: 0 5px 17px -7px rgba(153, 46, 157, 0.5);
+  color: #fcf5fe;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+}
+.hackathon-floater-left {
+  color: #474747;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 126%;
+  letter-spacing: -0.3px;
+  max-width: 125px;
+}
+.videthon-text-orange {
+  color: #df7c4d;
+}
+.tutedude-videothon-marquee {
+  width: 100%;
+  height: 66px;
+  background: #e88752;
+  overflow: hidden;
+  position: sticky; /* sticky top */
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.tutedude-videothon-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: tutedude-videothon-scroll 20s linear infinite;
+}
+
+.tutedude-videothon-link {
+  color: white;
+  font-size: 20.21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 24.25px;
+  margin: 0 13px;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.tutedude-videothon-link:hover {
+  opacity: 0.7;
+}
+
+.tutedude-videothon-dot {
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  margin: 0 13px;
+  flex-shrink: 0;
+}
+
+@keyframes tutedude-videothon-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (width<880px) {
+  .bct-top-heading {
+    font-size: 36px;
+  }
+  .bct-para {
+    font-size: 20px;
+  }
+}
+@media (width<768px) {
+  .hackathon-floater {
+    display: flex;
+  }
+}
+@media (width<580px) {
+  .bct-top-heading {
+    font-size: 28px;
+  }
+  .bct-para {
+    font-size: 16px;
+  }
+  .bct {
+    gap: 26px;
+  }
+  .tutedude-videothon-marquee {
+    height: 38px;
+  }
+  .tutedude-videothon-link {
+    font-size: 12px;
+    margin: 0 7px;
+  }
+  .tutedude-videothon-dot {
+    width: 5px;
+    height: 5px;
+    margin: 0;
+  }
+}
+@media (width<375px) {
+  .bct {
+    padding: 80px 32px;
+  }
+}

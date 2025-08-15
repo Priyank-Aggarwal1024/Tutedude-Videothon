@@ -1,0 +1,138 @@
+/* Base styles */
+.tutedude-videothon-container {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #fffbf9;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tutedude-videothon-welcome {
+  color: #303030;
+  font-family: Inter;
+  font-size: 49.479px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tutedude-videothon-title {
+  color: #d26e38;
+  font-size: 76.49px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  background: radial-gradient(
+    71.13% 133.26% at 50% 100%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tutedude-videothon-logo-container {
+  display: flex;
+
+  margin: 18px 0;
+}
+
+.tutedude-videothon-description {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 31.759px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 129.44%; /* 41.109px */
+  opacity: 0.7;
+  margin-top: 8px;
+  max-width: 659px;
+}
+
+.tutedude-videothon-whatsapp-button {
+  display: flex;
+  width: 100%;
+  max-width: 458px;
+  height: 91px;
+  padding: 20px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  flex-shrink: 0;
+  border-radius: 18.467px;
+  border: 4px solid #fff;
+  background: linear-gradient(90deg, #1fae38 0%, #59d263 100%);
+  box-shadow: 0 9px 21px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 40px;
+}
+
+.tutedude-videothon-whatsapp-text {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%;
+}
+
+@media (max-width: 768px) {
+  .tutedude-videothon-container {
+    padding: 100px 20px;
+  }
+
+  .tutedude-videothon-welcome {
+    margin-top: 50px;
+  }
+
+  .tutedude-videothon-title {
+    margin-top: 20px;
+  }
+
+  .tutedude-videothon-logo-container {
+    margin: 11px auto;
+  }
+
+  .tutedude-videothon-description {
+    margin: 5px auto;
+    font-size: 24px;
+  }
+
+  .tutedude-videothon-whatsapp-button {
+    margin: 20px auto;
+    padding: 11px 16px;
+    width: fit-content;
+    height: unset;
+  }
+  .tutedude-videothon-whatsapp-button img {
+    width: 32.391px;
+    height: 32.391px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tutedude-videothon-welcome {
+    font-size: 36px;
+  }
+
+  .tutedude-videothon-title {
+    font-size: 48px;
+  }
+
+  .tutedude-videothon-description {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .tutedude-videothon-whatsapp-text {
+    font-size: 22px;
+  }
+}

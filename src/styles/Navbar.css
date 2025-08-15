@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  height: 90px;
+  padding: 18px 101px 17px 139px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 4px 19.3px 0px rgba(0, 0, 0, 0.06);
+}
+.navbar-logo-div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.navbar-logo-divider {
+  color: #000;
+  font-family: Diphylleia;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.8px;
+}
+.navbar-registernow {
+  color: #fcf5fe;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+  display: flex;
+  padding: 14px 20px 14px 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  background: radial-gradient(
+    52.43% 42.89% at 37.74% 100%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+  box-shadow: 0 8px 24px -10px rgba(231, 153, 36, 0.52);
+  cursor: pointer;
+}
+@media (width<1024px) {
+  .navbar {
+    padding: 18px 64px;
+    height: fit-content;
+  }
+}
+@media (width<580px) {
+  .navbar {
+    padding: 20px 16px;
+    border-bottom: 1px solid rgba(9, 9, 9, 0.1);
+  }
+  .navbar-registernow {
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .tutedude-logo {
+    width: 81px;
+    height: 24px;
+  }
+  .hiredude-logo {
+    width: 77px;
+    height: 13px;
+  }
+  .navbar-logo-divider {
+    font-size: 26px;
+  }
+}

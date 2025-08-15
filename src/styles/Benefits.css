@@ -1,0 +1,113 @@
+.benefits {
+  padding: 65px 128px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 51px;
+}
+.benefits-top-para {
+  color: #595961;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.9px;
+  padding-top: 9px;
+}
+.benefits-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  max-width: 1144px;
+  width: 100%;
+}
+.benefits-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  border-radius: 18px;
+  background: rgba(51, 51, 51, 0.01);
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.25);
+  gap: 16px;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.benefits-card-para {
+  color: #333;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.benefits-card-oval {
+  position: absolute;
+  width: 272px;
+  height: 69px;
+  flex-shrink: 0;
+  border-radius: 272px;
+  opacity: 0.7;
+  background: linear-gradient(
+    90deg,
+    #eb996e 2.1%,
+    rgba(255, 185, 18, 0.23) 85.05%
+  );
+  filter: blur(100px);
+}
+@media (width<1024px) {
+  .benefits {
+    padding: 50px 64px;
+    gap: 36px;
+  }
+  .benefits-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .benefits-card {
+    min-height: 200px;
+  }
+}
+@media (width<768px) {
+  .benefits {
+    padding: 50px 32px;
+    gap: 28px;
+  }
+  .benefits-top-para {
+    font-size: 20px;
+  }
+  .benefits-card {
+    padding: 10px;
+  }
+  .benefits-card-icon > svg {
+    width: 37px;
+    height: 37px;
+  }
+  .benefits-card-para {
+    font-size: 16px;
+  }
+  .benefits-cards {
+    gap: 14px;
+  }
+}
+@media (width<580px) {
+  .benefits {
+    padding: 50px 20px;
+    gap: 18px;
+  }
+  .benefits-top-para {
+    font-size: 16px;
+  }
+  .benefits-card-para {
+    font-size: 13px;
+  }
+  .benefits-card {
+    min-height: 160px;
+    border-radius: 12px;
+  }
+}

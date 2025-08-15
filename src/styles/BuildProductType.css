@@ -1,0 +1,135 @@
+.bpt {
+  padding: 128px 0 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+.bpt-heading {
+  color: #111;
+  text-align: center;
+  padding: 0 20px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.swiper-wrapper.swiper-wrapper {
+  margin-left: 300px;
+}
+.bpt-main-slides.bpt-main-slides {
+  width: 300px;
+  height: 292px;
+  padding: 60px 10px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.13);
+}
+.bpt-main-slides-top {
+  padding-bottom: 13px;
+}
+.bpt-msb-head {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%; /* 165% */
+}
+.bpt-msb-content {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 239px;
+  padding-top: 9px;
+}
+.bpt-main-navigation {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 25px;
+}
+.bpt-main-navigation-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 20px;
+  background: rgba(213, 213, 213, 0.42);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.bpt-main-navigation-dot.active {
+  width: 26px;
+  height: 11px;
+  border-radius: 20px;
+  background: #df7c4d;
+}
+@media (width<1080px) {
+  .bpt {
+    padding: 40px 0;
+  }
+
+  .swiper-wrapper.swiper-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media (width<768px) {
+  .bpt {
+    gap: 28px;
+  }
+  .bpt-main-slides.bpt-main-slides {
+    width: 230px;
+    height: 224px;
+    padding: 35px 10px 10px;
+  }
+  .bpt-main-slides-top > svg,
+  .bpt-main-slides-top > img {
+    width: 43px;
+    height: 43px;
+  }
+  .bpt-msb-head,
+  .bpt-msb-content {
+    font-size: 16px;
+  }
+  .bpt-msb-content {
+    padding-top: 0;
+  }
+  .bpt-main-navigation {
+    display: flex;
+  }
+}
+
+@media (width<580px) {
+  .bpt {
+    padding: 36px 0;
+  }
+  .bpt-heading {
+    font-size: 28px;
+  }
+  .bpt-msb-head {
+    padding-bottom: 5px;
+  }
+  .bpt-main-slides-top {
+    padding-bottom: 7px;
+  }
+  .bpt-main-slides.bpt-main-slides {
+    width: 160px;
+    height: 155px;
+    padding: 28px 10px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2.123px 4.247px 0px rgba(0, 0, 0, 0.13);
+  }
+
+  .bpt-main-slides-top > svg,
+  .bpt-main-slides-top > img {
+    width: 31px;
+    height: 31px;
+  }
+  .bpt-msb-head,
+  .bpt-msb-content {
+    font-size: 11px;
+  }
+}
+
+@media (width<480px) {
+}

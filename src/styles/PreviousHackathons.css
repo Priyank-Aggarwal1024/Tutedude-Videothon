@@ -1,0 +1,460 @@
+.tutedude-prev-hackathons {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+.tph-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  width: 100%;
+  max-width: 1241px;
+  margin: 0 auto;
+}
+.tph-card {
+  padding: 50px 40px;
+  border-radius: 35px;
+  /* min-height: 479px; */
+  display: flex;
+  width: 100%;
+}
+
+.tph-card-1 {
+  background: #0e0021;
+}
+.tph-card-3 {
+  background: radial-gradient(
+      102.48% 59.26% at 91.34% 90.8%,
+      #3353d3 0%,
+      #0e0021 100%
+    ),
+    #fff;
+  flex-direction: row-reverse;
+}
+.tph-card-3 .tph-card-1-heading {
+  -webkit-text-stroke-color: #2640a5;
+}
+.tph-card-3 .tph-card-winner,
+.tph-card-3 .tph-card-runnerup1,
+.tph-card-3 .tph-card-runnerup2 {
+  background: #2640a5;
+}
+.tph-card-2 {
+  background: radial-gradient(
+      66.4% 91.05% at 89.39% 93.92%,
+      #d333d3 0%,
+      #800080 34.28%,
+      #5d115d 52%,
+      #350b35 100%
+    ),
+    #fff;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tph-card-2 .tph-card-watchnow-small {
+  display: flex;
+  margin: 0 auto;
+}
+.tph-card-2 .tph-card-watchnow-large {
+  display: none;
+}
+.tph-card-2-right {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.tph-card-2-right-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.tph-card-1-left,
+.tph-card-1-right {
+  width: 100%;
+  gap: 16px;
+}
+
+.tph-card-1-heading {
+  color: #fff;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #5204a7;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104%;
+  letter-spacing: -2.007px;
+  max-width: 522px;
+}
+
+.tph-card-mode {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  max-width: 302px;
+  padding: 10px 0 30px;
+  font-size: 19.1px;
+}
+
+.tph-card-mode-text {
+  text-align: center;
+}
+
+.tph-card-mode-text .label {
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 27.13px;
+}
+
+.tph-card-mode-text .value {
+  color: #feca4c;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 27.13px;
+}
+
+.tph-card-mode-date {
+  text-align: center;
+  color: #feca4c;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 27.13px;
+}
+.tph-card-ps-badge {
+  display: inline-flex;
+  padding: 6px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 42px;
+  background: #f8c12a;
+  color: #3a0b74;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.tph-card-domain {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding-top: 4px;
+}
+.tph-card-ps-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 454px;
+}
+.tph-card-watchnow {
+  display: flex;
+  padding: 5px 7px;
+  align-items: center;
+  gap: 7px;
+  border-radius: 11px;
+  background: #fff;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 21px;
+  color: #fe0000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.tph-card-1-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.tph-card-winner,
+.tph-card-runnerup1,
+.tph-card-runnerup2 {
+  border-radius: 138px;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  width: 100%;
+  max-width: 510px;
+  /* max-height: 110px; */
+  height: 100%;
+  padding: 10px 24px;
+  position: relative;
+}
+.tph-card-medaldiv {
+  max-height: 84px;
+  position: relative;
+}
+.tph-card-gold-img,
+.tph-card-bronze-img,
+.tph-card-silver-img {
+  width: 90px;
+  height: 90px;
+}
+.tph-card-gold-img {
+  margin-left: -23px;
+  margin-top: -23px;
+}
+.tph-card-1 .tph-card-winner {
+  background: rgba(110, 0, 244, 0.69);
+}
+.tph-card-1 .tph-card-runnerup1 {
+  background: rgba(110, 0, 244, 0.28);
+}
+.tph-card-1 .tph-card-runnerup2 {
+  background: rgba(110, 0, 244, 0.28);
+}
+.tph-card-2 .tph-card-winner {
+  background: #800080;
+}
+.tph-card-2 .tph-card-runnerup1 {
+  background: #800080;
+}
+.tph-card-2 .tph-card-runnerup2 {
+  background: #800080;
+}
+.tph-card-team {
+  max-width: 360px;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 14.34px;
+  line-height: 21.48px;
+  word-wrap: break-word;
+  color: white;
+}
+
+.tph-card-team .team-name {
+  font-weight: 700;
+  display: inline-block;
+}
+
+.tph-card-team .team-label {
+  color: rgba(255, 255, 255, 0.63);
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+.tph-card-team .team-members {
+  font-weight: 700;
+}
+
+.tph-card-team .project-link {
+  color: #ffd256;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.tph-card-winner-badge {
+  width: 117.38px;
+  height: 32.26px;
+  padding: 6.27px 8.96px;
+  background: #ffd650;
+  border-radius: 10.75px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8.96px;
+  position: absolute;
+  right: 35px;
+  top: -16px;
+}
+
+.tph-card-winner-badge .winner-text {
+  color: #270159;
+  font-size: 17.92px;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 26.85px;
+  word-wrap: break-word;
+}
+.tph-card-watchnow-small {
+  display: none;
+}
+
+.tph-card-2-left {
+  display: flex;
+  width: 100%;
+}
+.tph-card-2l-left {
+  max-width: 450px;
+  width: 100%;
+}
+.tph-card-2l-right {
+  width: 100%;
+}
+.tph-card-2-heading-top {
+  color: #fff;
+  text-shadow: 1px 1px 0 #eb996e;
+  font-family: Poppins;
+  font-size: 48.453px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.6%;
+  letter-spacing: -1.938px;
+}
+.tph-card-2-heading-bottom {
+  color: #fb9;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #992e9d;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -2.208px;
+  transform: rotate(-0.923deg);
+  margin-top: -4px;
+}
+.tph-card-2 .tph-card-mode {
+  padding-top: 0;
+  padding-bottom: 16px;
+}
+.tph-card-2 .tph-card-ps-text {
+  max-width: unset;
+  padding-top: 8px;
+}
+.tph-card-2 .tph-card-domain {
+  display: inline-flex;
+  margin-left: 20px;
+  padding-top: 2px;
+}
+@media (width<1200px) {
+  .tph-card-2-right-top {
+    grid-template-columns: 1fr;
+  }
+}
+@media (width<1024px) {
+  .tutedude-prev-hackathons {
+    padding: 48px 32px;
+  }
+  .tph-card-2-left {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .tph-card-2 .tph-card-domain {
+    display: flex;
+    margin-left: 0;
+  }
+  .tph-card-2 .tph-card-watchnow {
+    margin: 0;
+  }
+}
+@media (width<880px) {
+  .tph-cards {
+    gap: 20px;
+  }
+  .tph-card {
+    padding: 40px 14px;
+  }
+  .tph-card-1-left {
+    padding-left: 20px;
+  }
+  .tph-card-1,
+  .tph-card-3 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .tph-card-1-heading {
+    font-size: 34px;
+    -webkit-text-stroke-width: 2px;
+  }
+  .tph-card-watchnow-large {
+    display: none;
+  }
+  .tph-card-watchnow-small {
+    display: flex;
+    margin-top: 2px;
+  }
+  .tph-card-1-right {
+    gap: 14px;
+  }
+  .tph-card-winner,
+  .tph-card-runnerup1,
+  .tph-card-runnerup2 {
+    padding: 7px 20px;
+    grid-template-columns: 64px 1fr;
+    border-radius: 100px;
+    gap: 6px;
+  }
+  .tph-card-medaldiv {
+    height: 64px;
+  }
+  .tph-card-gold-img,
+  .tph-card-bronze-img,
+  .tph-card-silver-img {
+    width: 64px;
+    height: 64px;
+  }
+  .tph-card-gold-img {
+    margin-left: -8px;
+    margin-top: -8px;
+  }
+  .tph-card-domain {
+    font-size: 20px;
+  }
+  .tph-card-ps-text {
+    font-size: 12px;
+  }
+  .tph-card-mode {
+    font-size: 17px;
+  }
+  .team-members,
+  .team-label,
+  .team-name {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+  .tph-card-2-heading-top {
+    font-size: 30px;
+  }
+  .tph-card-2-heading-bottom {
+    font-size: 34px;
+    -webkit-text-stroke-width: 2px;
+  }
+}
+@media (width<680px) {
+  .tutedude-prev-hackathons {
+    padding: 48px 16px;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .tph-card-winner-badge {
+    width: auto;
+    padding: 5px 10px;
+  }
+  .tph-card-winner-badge .winner-text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .tph-card-team {
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .tph-card-mode {
+    gap: 15px;
+    padding: 8px 0 18px;
+    font-size: 14px;
+  }
+}

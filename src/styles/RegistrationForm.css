@@ -1,0 +1,450 @@
+.tutedude-registration {
+  background: #fffbf9;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.tutedude-registration-nav {
+  padding: 20px 128px 30px;
+}
+.tvr-step1-container {
+  width: 100%;
+  max-width: 612px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 4px 17.2px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tvr-step1-header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tvr-step1-title {
+  text-align: center;
+  color: #333333;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.tvr-step1-progress-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.tvr-step1-progress-step {
+  height: 9px;
+  border-radius: 12px;
+  flex-grow: 1;
+  max-width: 250px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.tvr-step1-progress-active {
+  background: #f97316;
+  border: none;
+}
+
+.tvr-step1-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tvr-step1-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.tvr-step1-label {
+  opacity: 0.9;
+  color: #273240;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 25.84px;
+}
+
+.tvr-step1-input {
+  width: 100%;
+  height: 58px;
+  background: white;
+  box-shadow: 0px 0px 17.22px rgba(0, 0, 0, 0.12);
+  border-radius: 8.61px;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.tvr-step1-input::placeholder {
+  opacity: 0.6;
+  color: #273240;
+}
+
+.tvr-step1-row {
+  display: flex;
+  gap: 17px;
+  width: 100%;
+}
+
+.tvr-step1-half-width {
+  width: calc(50% - 8.5px);
+}
+
+.tvr-step1-dropdown {
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 12.6px rgba(0, 0, 0, 0.17);
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.tvr-step1-dropdown-header {
+  align-self: stretch;
+  height: 50px;
+  background: white;
+  box-shadow: 0px 0px 17.22px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  border-radius: 8.61px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #212121;
+  font-size: 16px;
+}
+
+.tvr-step1-dropdown-options {
+  padding: 10px 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.tvr-step1-option {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #2d2d2d;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.tvr-step1-option input {
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+  border-radius: 3px;
+  border: 1px rgba(45, 45, 45, 0.51) solid;
+  margin: 0;
+}
+
+.tvr-step1-next-button {
+  width: 146px;
+  padding: 15px 56px;
+  background: radial-gradient(
+    ellipse 84.58% 88.03% at 40.95% 124.22%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+  border-radius: 10px;
+  color: #e8f9f7;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.tvr-step1-next-button-outer {
+  width: 100%;
+}
+/* Base styles */
+.tvr-step2-container {
+  width: 100%;
+  max-width: 612px;
+  background: white;
+  box-shadow: 0px 4px 17.2px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tvr-step2-header {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tvr-step2-title {
+  color: #333333;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.tvr-step2-progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.tvr-step2-progress-step {
+  height: 9px;
+  border-radius: 12px;
+  flex-grow: 1;
+  max-width: 250px;
+  background-color: #f97316;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.tvr-step2-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tvr-step2-question-group {
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 12.6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tvr-step2-question-header {
+  height: auto;
+  min-height: 50px;
+  padding: 15px 22px;
+  background: white;
+  box-shadow: 0px 0px 17.22px rgba(0, 0, 0, 0.12);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #212121;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.tvr-step2-options {
+  padding: 5px 0;
+}
+
+.tvr-step2-option {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 21px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #2d2d2d;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tvr-step2-option:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.tvr-step2-option input[type="radio"],
+.tvr-step2-option input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+  border-radius: 3px;
+  border: 1px solid rgba(45, 45, 45, 0.51);
+  margin: 0;
+  cursor: pointer;
+}
+.tvr-step2-option input[type="radio"]:checked,
+.tvr-step2-option input[type="checkbox"]:checked {
+  opacity: 1;
+}
+.tvr-step2-button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.tvr-step2-button {
+  width: 146px;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tvr-step2-button-previous {
+  background: rgba(131, 132, 141, 0.21);
+  color: #333333;
+}
+
+.tvr-step2-button-previous:hover {
+  background: rgba(131, 132, 141, 0.3);
+}
+
+.tvr-step2-button-submit {
+  background: radial-gradient(
+    88.03% 84.58% at 40.95% 124.22%,
+    #d26e38 0%,
+    #0f1e3a 100%
+  );
+  color: #e8f9f7;
+}
+
+.tvr-step2-button-submit:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.tvr-step1-error,
+.tvr-step2-error {
+  color: #ff4444;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  display: block;
+  padding: 0 16px;
+}
+
+.tvr-step1-input-error {
+  border: 1px solid #ff4444;
+}
+
+@media (max-width: 480px) {
+  .tvr-step1-error,
+  .tvr-step2-error {
+    font-size: 12px;
+  }
+  .tvr-step2-title {
+    font-size: 20px;
+  }
+
+  .tvr-step2-question-header {
+    font-size: 14px;
+    min-height: 60px;
+  }
+
+  .tvr-step2-option {
+    font-size: 13px;
+  }
+
+  .tvr-step2-progress-step {
+    height: 7px;
+  }
+  .tvr-step1-title {
+    font-size: 20px;
+  }
+
+  .tvr-step1-label,
+  .tvr-step1-input,
+  .tvr-step1-dropdown-header {
+    font-size: 14px;
+  }
+
+  .tvr-step1-input {
+    height: 50px;
+  }
+
+  .tvr-step1-next-button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .tutedude-registration-nav {
+    padding: 20px 16px;
+  }
+  .tutedude-registration-nav .navbar-logo-div {
+    justify-content: center;
+    width: 100%;
+  }
+  .tutedude-registration-main {
+    padding: 16px;
+  }
+  .tvr-step1-container {
+    padding: 15px;
+  }
+  .tvr-step1-form-container,
+  .tvr-step1-row {
+    gap: 14px;
+  }
+  .tvr-step1-title {
+    font-size: 24px;
+  }
+
+  .tvr-step1-row {
+    flex-direction: column;
+  }
+
+  .tvr-step1-half-width {
+    width: 100%;
+  }
+
+  .tvr-step1-progress-step {
+    max-width: none;
+  }
+  .tvr-step2-container {
+    padding: 15px;
+  }
+
+  .tvr-step2-title {
+    font-size: 24px;
+  }
+
+  .tvr-step2-question-header {
+    font-size: 15px;
+    padding: 12px 18px;
+  }
+
+  .tvr-step2-option {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .tvr-step2-button-group {
+    gap: 12px;
+  }
+
+  .tvr-step2-button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
