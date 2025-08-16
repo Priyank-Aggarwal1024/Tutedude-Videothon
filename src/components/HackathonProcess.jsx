@@ -10,14 +10,23 @@ function HackathonProcess(props) {
     {
       stepNo: "02",
       stepHeading: "Register Now",
-      stepContent:
-        "Click 'Apply Now' above for exclusive participant details and access to the dedicated Videothon Group.",
+      stepContent: (
+        <>
+          Click the "Register Now" button to fill in your participant details
+          and gain access to the dedicated Videothon <b>Whatsapp group.</b>
+        </>
+      ),
     },
     {
       stepNo: "03",
       stepHeading: "Edit and Submit",
-      stepContent:
-        "Receive 3 different themes & Dive deep into the Editing process, unleash your creativity, Submit your work before the deadline.",
+      stepContent: (
+        <>
+          Receive <b>3 different themes</b> & Dive deep into the Editing
+          process, unleash your creativity, Submit your work before the
+          deadline.
+        </>
+      ),
     },
     {
       stepNo: "04",

@@ -308,6 +308,11 @@
   .claim-para {
     font-size: 18px;
   }
+  .claim-arrow {
+    right: -5px;
+    top: 30px;
+    rotate: 40deg;
+  }
 }
 
 @media (width<480px) {

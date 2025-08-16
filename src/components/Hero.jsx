@@ -9,7 +9,7 @@ function Hero({ navigateRegister }) {
     <section className="hero-section">
       <div className="hero-blur-shadow"></div>
       <div className="hero-left">
-        <div className="her-lef-join">An IIT Delhi alumni innititative</div>
+        <div className="her-lef-join">An IIT Delhi alumni inititative</div>
         <div className="hero-heading">
           <span className="hero-heading-top">Edit like a Pro</span>
           <span className="hero-heading-top hero-heading-top-500">
@@ -35,7 +35,7 @@ function Hero({ navigateRegister }) {
               <img src={Calendar} alt="Calendar Icon" />
             </div>
             <div className="hlm-div-title">Date: </div>
-            <div className="hlm-div-cont">25 August to 26 August</div>
+            <div className="hlm-div-cont">30 August to 31st August</div>
           </div>
           <div className="hlm-div">
             <div className="hlm-div-icon">

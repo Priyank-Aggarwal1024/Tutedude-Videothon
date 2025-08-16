@@ -47,7 +47,7 @@ function HackathonSchedule() {
           <div className="hack-sch-card-bottom">
             <div className="hscb-top">
               <div className="hscb-date">
-                25<sup>th</sup> AUGUST
+                30<sup>th</sup> AUGUST
               </div>
               <div className="hscb-topic">Videothon Launch</div>
             </div>
@@ -77,7 +77,7 @@ function HackathonSchedule() {
           <div className="hack-sch-card-bottom">
             <div className="hscb-top">
               <div className="hscb-date">
-                26<sup>th</sup> AUGUST
+                31<sup>st</sup> AUGUST
               </div>
               <div className="hscb-topic">Create and Submit</div>
             </div>
@@ -101,7 +101,7 @@ function HackathonSchedule() {
           <div className="hack-sch-card-bottom">
             <div className="hscb-top">
               <div className="hscb-date">
-                31<sup>st</sup> AUGUST
+                7<sup>th</sup> SEPTEMBER
               </div>
               <div className="hscb-topic">Final Results </div>
             </div>

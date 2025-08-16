@@ -5,6 +5,9 @@ import bronze from "../assets/bronze.png";
 import youtubeRed from "../assets/youtube-red.svg";
 
 const PreviousHackathons = () => {
+  const openUrl = (url) => {
+    window.open(url, "_blank");
+  };
   return (
     <div className="tutedude-prev-hackathons">
       <div className="tph-top">
@@ -36,7 +39,14 @@ const PreviousHackathons = () => {
               Dig deep, explore the ecosystem, identify real pain points faced
               by patients, doctors and build a meaningful solution.
             </div>
-            <div className="tph-card-watchnow tph-card-watchnow-large">
+            <div
+              className="tph-card-watchnow tph-card-watchnow-large"
+              onClick={() =>
+                openUrl(
+                  "https://www.youtube.com/live/kQjlZkaLjjc?si=OPfyYet8oGnDco0M"
+                )
+              }
+            >
               <img
                 src={youtubeRed}
                 alt="Youtube Icon"
@@ -58,10 +68,14 @@ const PreviousHackathons = () => {
                 <span className="team-name">VITeens</span> <br />
                 <span className="team-label">Team Members Name : </span>
                 <span className="team-members">
-                  Nirant, Tejas, Anish, Shubham, Niramay
+                  Avishkar, Jineshwari, Anuj, Hardik
                 </span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="https://neuro-bloom-xc4e.vercel.app/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
@@ -75,13 +89,17 @@ const PreviousHackathons = () => {
                 />
               </div>
               <div className="tph-card-team">
-                <span className="team-name">VITeens</span> <br />
+                <span className="team-name">DevDude</span> <br />
                 <span className="team-label">Team Members Name : </span>
                 <span className="team-members">
                   Nirant, Tejas, Anish, Shubham, Niramay
                 </span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="https://infant-growth-guardian-git-main-nirant-nks-projects.vercel.app/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
@@ -95,18 +113,29 @@ const PreviousHackathons = () => {
                 />
               </div>
               <div className="tph-card-team">
-                <span className="team-name">VITeens</span> <br />
+                <span className="team-name">Cracked Nerds</span> <br />
                 <span className="team-label">Team Members Name : </span>
                 <span className="team-members">
-                  Nirant, Tejas, Anish, Shubham, Niramay
+                  Ashiwath, Tushar, Harnoor, Sahil, Sawyam
                 </span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="https://sureshot-tutedude.vercel.app/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
             </div>
-            <div className="tph-card-watchnow tph-card-watchnow-small">
+            <div
+              className="tph-card-watchnow tph-card-watchnow-small"
+              onClick={() =>
+                openUrl(
+                  "https://www.youtube.com/live/kQjlZkaLjjc?si=OPfyYet8oGnDco0M"
+                )
+              }
+            >
               <img
                 src={youtubeRed}
                 alt="Youtube Icon"
@@ -128,7 +157,7 @@ const PreviousHackathons = () => {
                   <span className="label">Mode: </span>
                   <span className="value">Online</span>
                 </div>
-                <div className="tph-card-mode-date">12-15 June</div>
+                <div className="tph-card-mode-date">27-29 June</div>
               </div>
               <div className="tph-card-ps-badge">Problem statement</div>
               <div className="tph-card-domain"> Healthcare Domain</div>
@@ -151,13 +180,17 @@ const PreviousHackathons = () => {
                   <img src={gold} alt="Gold" className="tph-card-gold-img" />
                 </div>
                 <div className="tph-card-team">
-                  <span className="team-name">VITeens</span> <br />
+                  <span className="team-name">Alpga Designers</span> <br />
                   <span className="team-label">Team Members Name : </span>
                   <span className="team-members">
-                    Nirant, Tejas, Anish, Shubham, Niramay
+                    R Surya Prakash, Varada Monika, Mehal Kumari
                   </span>
                   <br />
-                  <a className="project-link" href="/">
+                  <a
+                    className="project-link"
+                    href="https://www.figma.com/design/oDoKkLHAKOUQxihOXgmG6y/Solo-App--Solora---Mehal-Kumari?node-id=0-1&p=f"
+                    target="_blank"
+                  >
                     Project Link <LinkArrow />
                   </a>
                 </div>
@@ -171,13 +204,17 @@ const PreviousHackathons = () => {
                   />
                 </div>
                 <div className="tph-card-team">
-                  <span className="team-name">VITeens</span> <br />
+                  <span className="team-name">DesignMates</span> <br />
                   <span className="team-label">Team Members Name : </span>
                   <span className="team-members">
-                    Nirant, Tejas, Anish, Shubham, Niramay
+                    Shruti, Aakanksha, Anuraj Kumar, Diksha, Chandu
                   </span>
                   <br />
-                  <a className="project-link" href="/">
+                  <a
+                    className="project-link"
+                    href="https://www.figma.com/design/u963GkjzpD6FukUgKVWvBE/SOLOBUDDY-APP-Design---Shruti?node-id=149-3889&p=f"
+                    target="_blank"
+                  >
                     Project Link <LinkArrow />
                   </a>
                 </div>
@@ -191,19 +228,28 @@ const PreviousHackathons = () => {
                   />
                 </div>
                 <div className="tph-card-team">
-                  <span className="team-name">VITeens</span> <br />
+                  <span className="team-name">Design Soap</span> <br />
                   <span className="team-label">Team Members Name : </span>
-                  <span className="team-members">
-                    Nirant, Tejas, Anish, Shubham, Niramay
-                  </span>
+                  <span className="team-members">Sabina, Temirlan, Anel</span>
                   <br />
-                  <a className="project-link" href="/">
+                  <a
+                    className="project-link"
+                    href="https://drive.google.com/file/d/1X6oFEkumlnvBSXivqV7pnZJr9NNXFaib/view?usp=sharing"
+                    target="_blank"
+                  >
                     Project Link <LinkArrow />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="tph-card-watchnow tph-card-watchnow-small">
+            <div
+              className="tph-card-watchnow tph-card-watchnow-small"
+              onClick={() =>
+                openUrl(
+                  "https://www.youtube.com/live/07lwPVeVB1E?si=5JOBMhTTZHup9GL7"
+                )
+              }
+            >
               <img
                 src={youtubeRed}
                 alt="Youtube Icon"
@@ -223,7 +269,7 @@ const PreviousHackathons = () => {
                 <span className="label">Mode: </span>
                 <span className="value">Online</span>
               </div>
-              <div className="tph-card-mode-date">12-15 June</div>
+              <div className="tph-card-mode-date">25-27 July</div>
             </div>
             <div className="tph-card-ps-badge">Problem statement</div>
             <div className="tph-card-domain">Healthcare Domain</div>
@@ -232,7 +278,14 @@ const PreviousHackathons = () => {
               Dig deep, explore the ecosystem, identify real pain points faced
               by patients, doctors and build a meaningful solution.
             </div>
-            <div className="tph-card-watchnow tph-card-watchnow-large">
+            <div
+              className="tph-card-watchnow tph-card-watchnow-large"
+              onClick={() =>
+                openUrl(
+                  "https://www.youtube.com/live/1x44Bi78nZs?si=pZBwitmPUBuRh0aZ"
+                )
+              }
+            >
               <img
                 src={youtubeRed}
                 alt="Youtube Icon"
@@ -251,13 +304,17 @@ const PreviousHackathons = () => {
                 <img src={gold} alt="Gold" className="tph-card-gold-img" />
               </div>
               <div className="tph-card-team">
-                <span className="team-name">VITeens</span> <br />
+                <span className="team-name">git push --force</span> <br />
                 <span className="team-label">Team Members Name : </span>
                 <span className="team-members">
-                  Nirant, Tejas, Anish, Shubham, Niramay
+                  Shubham, Pavan, Gaurav, Parth, Shravani
                 </span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="http://teal-quail-113480.hostingersite.com/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
@@ -271,13 +328,17 @@ const PreviousHackathons = () => {
                 />
               </div>
               <div className="tph-card-team">
-                <span className="team-name">VITeens</span> <br />
+                <span className="team-name">CodeChamps</span> <br />
                 <span className="team-label">Team Members Name : </span>
                 <span className="team-members">
-                  Nirant, Tejas, Anish, Shubham, Niramay
+                  Chirag, Pradnya, Sakshi, Harshal, Diksha
                 </span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="https://web-dev-code-champs-kappa.vercel.app/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
@@ -291,18 +352,27 @@ const PreviousHackathons = () => {
                 />
               </div>
               <div className="tph-card-team">
-                <span className="team-name">VITeens</span> <br />
+                <span className="team-name">Mandemn or smoke</span> <br />
                 <span className="team-label">Team Members Name : </span>
-                <span className="team-members">
-                  Nirant, Tejas, Anish, Shubham, Niramay
-                </span>
+                <span className="team-members">Pavan, Saiprasad, Gautam</span>
                 <br />
-                <a className="project-link" href="/">
+                <a
+                  className="project-link"
+                  href="https://vendorconnectt.netlify.app/"
+                  target="_blank"
+                >
                   Project Link <LinkArrow />
                 </a>
               </div>
             </div>
-            <div className="tph-card-watchnow tph-card-watchnow-small">
+            <div
+              className="tph-card-watchnow tph-card-watchnow-small"
+              onClick={() =>
+                openUrl(
+                  "https://www.youtube.com/live/1x44Bi78nZs?si=pZBwitmPUBuRh0aZ"
+                )
+              }
+            >
               <img
                 src={youtubeRed}
                 alt="Youtube Icon"
